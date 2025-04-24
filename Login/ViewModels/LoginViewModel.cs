@@ -1,77 +1,92 @@
-﻿using System;
+﻿using MinApp.Services;
+using MinApp.ViewModels;
 using System.Windows.Input;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using Microsoft.Maui.Controls;
-using MinApp.Services;
-using MinApp.Models;
-using MinApp.Services;
 
-namespace MinApp.ViewModels;
-
-// ViewModel til Login-siden: indeholder brugerens inputdata, fejlbesked og kommando til at logge ind
-public class LoginViewModel : INotifyPropertyChanged
+namespace MinApp.ViewModels
 {
-    private readonly AuthService _authService;
-    private string _email;
-    private string _adgangskode;
-    private string _fejlbesked;
-
-    public string Email
+    public class LoginViewModel : BaseViewModel
     {
-        get => _email;
-        set { if (value != _email) { _email = value; OnPropertyChanged(); } }
-    }
+        private readonly IApiService _apiService;
 
-    public string Adgangskode
-    {
-        get => _adgangskode;
-        set { if (value != _adgangskode) { _adgangskode = value; OnPropertyChanged(); } }
-    }
-
-    public string Fejlbesked
-    {
-        get => _fejlbesked;
-        set { if (value != _fejlbesked) { _fejlbesked = value; OnPropertyChanged(); } }
-    }
-
-    public ICommand LogIndKommando { get; }
-
-    public LoginViewModel(AuthService authService)
-    {
-        _authService = authService;
-        LogIndKommando = new Command(async () => await LogIndAsync());
-        _email = string.Empty;
-        _adgangskode = string.Empty;
-        _fejlbesked = string.Empty;
-    }
-
-    private async Task LogIndAsync()
-    {
-        Fejlbesked = string.Empty;
-        try
+        private string _email;
+        public string Email
         {
-            // Forsøg at logge ind via AuthService
-            User bruger = await _authService.LoginAsync(Email, Adgangskode);
-            if (bruger != null)
+            get => _email;
+            set => SetProperty(ref _email, value);
+        }
+
+        private string _password;
+        public string Password
+        {
+            get => _password;
+            set => SetProperty(ref _password, value);
+        }
+
+        private string _errorMessage;
+        public string ErrorMessage
+        {
+            get => _errorMessage;
+            set => SetProperty(ref _errorMessage, value);
+        }
+
+        public ICommand LoginCommand { get; }
+        public ICommand RegisterCommand { get; }
+        public ICommand ForgotPasswordCommand { get; }
+
+        public LoginViewModel(IApiService apiService)
+        {
+            _apiService = apiService;
+            Title = "Login";
+
+            LoginCommand = new Command(async () => await LoginAsync());
+            RegisterCommand = new Command(async () => await GoToRegisterAsync());
+            ForgotPasswordCommand = new Command(async () => await ForgotPasswordAsync());
+        }
+
+        private async Task LoginAsync()
+        {
+            if (string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(Password))
             {
-                // Navigation til HomePage efter vellykket login (rydder navigationsstakken)
-                await Shell.Current.GoToAsync("//HomePage");
+                ErrorMessage = "Please enter email and password";
+                return;
             }
-            else
+
+            IsBusy = true;
+            ErrorMessage = string.Empty;
+
+            try
             {
-                Fejlbesked = "Login mislykkedes. Tjek email og adgangskode.";
+                var success = await _apiService.LoginAsync(Email, Password);
+
+                if (success)
+                {
+                    // Navigate to main page
+                    await Shell.Current.GoToAsync("//MainPage");
+                }
+                else
+                {
+                    ErrorMessage = "Invalid email or password";
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"Login failed: {ex.Message}";
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
-        catch (Exception ex)
+
+        private async Task GoToRegisterAsync()
         {
-            // Håndter uventede fejl (fx netværk)
-            Fejlbesked = $"Der opstod en fejl: {ex.Message}";
+            await Shell.Current.GoToAsync("RegisterPage");
+        }
+
+        private async Task ForgotPasswordAsync()
+        {
+            // Implement forgot password functionality
+            await Shell.Current.DisplayAlert("Forgot Password", "This feature is not implemented yet.", "OK");
         }
     }
-
-    // INotifyPropertyChanged implementation for data-binding
-    public event PropertyChangedEventHandler PropertyChanged;
-    private void OnPropertyChanged([CallerMemberName] string propertyName = null) =>
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 }

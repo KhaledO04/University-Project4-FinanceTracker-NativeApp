@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MinApp.Views.AddJobPage"
+             Title="{Binding Title}">
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*,Auto"
+              Padding="20">
+            <Label Grid.Row="0"
+                   Text="Add / Edit job"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+
+            <VerticalStackLayout Grid.Row="1"
+                                 Spacing="15"
+                                 VerticalOptions="Start">
+                <Label Text="Job name" />
+                <Entry Text="{Binding JobName}" />
+
+                <Label Text="Employment type" />
+                <Picker ItemsSource="{Binding EmploymentTypes}"
+                        SelectedItem="{Binding EmploymentType}" />
+
+                <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto">
+                    <Label Grid.Column="0" Grid.Row="0" Text="On e-card" />
+                    <Switch Grid.Column="0" Grid.Row="1" IsToggled="{Binding IsCard}" />
+
+                    <Label Grid.Column="1" Grid.Row="0" Text="On e-board" />
+                    <Switch Grid.Column="1" Grid.Row="1" IsToggled="{Binding IsBoard}" />
+                </Grid>
+
+                <Label Text="Tax number" />
+                <Entry Text="{Binding TaxNumber}"
+                       Keyboard="Numeric" />
+
+                <Label Text="Hourly rate" />
+                <Entry Text="{Binding HourlyRate}"
+                       Keyboard="Numeric" />
+
+                <Button Text="Save"
+                        Command="{Binding SaveCommand}"
+                        IsEnabled="{Binding IsNotBusy}"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        Margin="0,20,0,0" />
+
+                <Label Text="{Binding ErrorMessage}"
+                       TextColor="Red"
+                       IsVisible="{Binding ErrorMessage, Converter={StaticResource StringNotEmptyConverter}}"
+                       HorizontalOptions="Center" />
+
+                <ActivityIndicator IsRunning="{Binding IsBusy}"
+                                   IsVisible="{Binding IsBusy}"
+                                   HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <Button Grid.Row="2"
+                    Text="Cancel"
+                    Command="{Binding CancelCommand}"
+                    BackgroundColor="Transparent"
+                    TextColor="#4CAF50"
+                    HorizontalOptions="Center" />
+        </Grid>
+    </ScrollView>
+</ContentPage>

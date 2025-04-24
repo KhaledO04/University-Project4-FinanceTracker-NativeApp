@@ -1,37 +1,59 @@
-﻿using System;
-using System.Net.Http;
-using System.Net.Http.Json;
-using Microsoft.Maui;
-using Microsoft.Maui.Hosting;
-using Microsoft.Extensions.DependencyInjection;
+﻿using MinApp.Converters;
 using MinApp.Services;
 using MinApp.ViewModels;
 using MinApp.Views;
+using Microsoft.Extensions.Logging;
 
-namespace MinApp;
-
-public static class MauiProgram
+namespace MinApp
 {
-    public static MauiApp CreateMauiApp()
+    public static class MauiProgram
     {
-        var builder = MauiApp.CreateBuilder();
-        builder
-            .UseMauiApp<App>(); // Registrér App-klassen som roden af MAUI-appen
-
-        // Dependency Injection konfiguration
-        // Registrér HttpClient med base-URL til web API (indsæt korrekt URL til API’et):
-        builder.Services.AddSingleton(sp => new HttpClient
+        public static MauiApp CreateMauiApp()
         {
-            BaseAddress = new Uri("http://localhost:5140/")
-        });
-        // Registrér services og ViewModels:
-        builder.Services.AddSingleton<AuthService>();       // Godkendelsesservice (JWT håndtering)
-        builder.Services.AddTransient<LoginViewModel>();    // ViewModel til login-siden
-        // Registrér views (sider) for navigation via Shell:
-        builder.Services.AddTransient<LoginPage>();
-        builder.Services.AddTransient<HomePage>();
-        builder.Services.AddSingleton<AppShell>();
+            var builder = MauiApp.CreateBuilder();
+            builder
+                .UseMauiApp<App>()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                });
 
-        return builder.Build();
+            // Register services
+            // Use MockApiService for testing without a backend
+            //builder.Services.AddSingleton<IApiService, MockApiService>();
+            // Use real ApiService when backend is ready
+            builder.Services.AddSingleton<IApiService, ApiService>();
+
+            // Register view models
+            builder.Services.AddTransient<LoginViewModel>();
+            builder.Services.AddTransient<RegisterViewModel>();
+            builder.Services.AddTransient<MainViewModel>();
+            builder.Services.AddTransient<JobOverviewViewModel>();
+            builder.Services.AddTransient<AddJobViewModel>();
+            builder.Services.AddTransient<LogHoursViewModel>();
+            builder.Services.AddTransient<AddHoursViewModel>();
+            builder.Services.AddTransient<PaycheckViewModel>();
+            builder.Services.AddTransient<HolidayPayViewModel>();
+            builder.Services.AddTransient<StudentGrantViewModel>();
+
+            // Register pages
+            builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddTransient<RegisterPage>();
+            builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<JobOverviewPage>();
+            builder.Services.AddTransient<AddJobPage>();
+            builder.Services.AddTransient<LogHoursPage>();
+            builder.Services.AddTransient<AddHoursPage>();
+            builder.Services.AddTransient<PaycheckPage>();
+            builder.Services.AddTransient<HolidayPayPage>();
+            builder.Services.AddTransient<StudentGrantPage>();
+
+#if DEBUG
+            builder.Logging.AddDebug();
+#endif
+
+            return builder.Build();
+        }
     }
 }

@@ -311,3 +311,4 @@ D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-ios\i
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-ios\iossimulator-x64\MinApp.pdb
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-ios\iossimulator-x64\MinApp.genruntimeconfig.cache
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-ios\iossimulator-x64\ref\MinApp.dll
+D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-ios\iossimulator-x64\MinApp.sourcelink.json

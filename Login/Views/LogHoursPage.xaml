@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MinApp.Views.LogHoursPage"
+             Title="{Binding Title}">
+    <Grid RowDefinitions="Auto,Auto,*,Auto"
+          Padding="20">
+        <Label Grid.Row="0"
+               Text="Log hours"
+               FontSize="20"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,20,0,20" />
+
+        <Picker Grid.Row="1"
+                Title="Select Job"
+                ItemsSource="{Binding Jobs}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedJob}"
+                Margin="0,0,0,10" />
+
+        <CollectionView Grid.Row="2"
+                        ItemsSource="{Binding WorkHours}"
+                        SelectionMode="None">
+            <CollectionView.EmptyView>
+                <VerticalStackLayout HorizontalOptions="Center"
+                                     VerticalOptions="Center">
+                    <Label Text="No hours logged"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                    <Label Text="Add hours to get started"
+                           FontSize="14"
+                           TextColor="Gray"
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Frame BorderColor="LightGray"
+                               CornerRadius="10"
+                               HasShadow="True"
+                               Padding="15">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <VerticalStackLayout Grid.Column="0">
+                                    <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}"
+                                           FontSize="16"
+                                           FontAttributes="Bold" />
+                                    <Label Text="{Binding StartTime, StringFormat='{0:hh\\:mm}'}"
+                                           FontSize="14" />
+                                    <Label Text="{Binding EndTime, StringFormat='{0:hh\\:mm}'}"
+                                           FontSize="14" />
+                                </VerticalStackLayout>
+                                <VerticalStackLayout Grid.Column="1"
+                                                     HorizontalOptions="End">
+                                    <Label Text="{Binding Hours, StringFormat='{0:F1} hours'}"
+                                           FontSize="16"
+                                           FontAttributes="Bold" />
+                                    <Label Text="{Binding IsPaid, Converter={StaticResource BoolToStatusConverter}}"
+                                           FontSize="14"
+                                           TextColor="{Binding IsPaid, Converter={StaticResource BoolToColorConverter}}" />
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="3"
+                Text="Add hours"
+                Command="{Binding AddHoursCommand}"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Margin="0,10,0,20" />
+
+        <ActivityIndicator Grid.Row="2"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+    </Grid>
+</ContentPage>

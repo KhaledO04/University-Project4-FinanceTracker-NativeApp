@@ -1073,3 +1073,4 @@ D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-andro
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-android\MinApp.sourcelink.json

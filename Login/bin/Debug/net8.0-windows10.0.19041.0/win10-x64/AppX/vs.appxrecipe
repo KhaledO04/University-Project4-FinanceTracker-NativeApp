@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-24T14:26:48.392</Modified>
+      <Modified>2025-04-24T16:11:43.912</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-24T13:04:25.786</Modified>
+      <Modified>2025-04-24T16:02:49.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MinApp.runtimeconfig.json">
       <PackagePath>MinApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MinApp.dll">
       <PackagePath>MinApp.dll</PackagePath>
-      <Modified>2025-04-24T14:26:48.140</Modified>
+      <Modified>2025-04-24T16:11:43.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MinApp.exe</PackagePath>
-      <Modified>2025-04-24T14:26:48.146</Modified>
+      <Modified>2025-04-24T16:11:43.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MinApp.deps.json">
       <PackagePath>MinApp.deps.json</PackagePath>
-      <Modified>2025-04-24T13:04:25.388</Modified>
+      <Modified>2025-04-24T16:02:48.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\SF47\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

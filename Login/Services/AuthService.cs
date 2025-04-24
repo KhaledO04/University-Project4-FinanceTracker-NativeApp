@@ -74,22 +74,22 @@ public class AuthService
         var user = new User();
         try
         {
-            string payload = jwtToken.Split('.')[1]; // JWT payload er mellemste del
-            // Base64-decode (JWT bruger URL-safe base64 uden padding)
+            string payload = jwtToken.Split('.')[1]; // JWT payload is middle part  
+                                                     // Base64-decode (JWT uses URL-safe base64 without padding)  
             string paddedPayload = payload.PadRight(payload.Length + (4 - payload.Length % 4) % 4, '=');
             byte[] jsonBytes = Convert.FromBase64String(paddedPayload.Replace('-', '+').Replace('_', '/'));
             string json = Encoding.UTF8.GetString(jsonBytes);
 
-            // Parse JSON for at hente relevante felter (kræver at token indeholder disse claims)
+            // Parse JSON to extract relevant fields (requires token to contain these claims)  
             using JsonDocument doc = JsonDocument.Parse(json);
             if (doc.RootElement.TryGetProperty("id", out JsonElement idElement))
-                user.Id = idElement.GetInt32();
+                user.Id = idElement.GetString(); // Fix: Convert id to string  
             if (doc.RootElement.TryGetProperty("email", out JsonElement emailElement))
                 user.Email = emailElement.GetString();
         }
         catch
         {
-            // Hvis dekodning fejler, returnér en tom/bruger uden data
+            // If decoding fails, return an empty user without data  
         }
         return user;
     }

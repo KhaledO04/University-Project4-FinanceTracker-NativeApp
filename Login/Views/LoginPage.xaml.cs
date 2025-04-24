@@ -1,13 +1,16 @@
 using MinApp.ViewModels;
-using Microsoft.Maui.Controls;
 
-namespace MinApp.Views;
-
-public partial class LoginPage : ContentPage
+namespace MinApp.Views
 {
-    public LoginPage(LoginViewModel viewModel)
+    public partial class LoginPage : ContentPage
     {
-        InitializeComponent();
-        BindingContext = viewModel; // Sæt ViewModel som BindingContext for data-binding
+        private readonly LoginViewModel _viewModel;
+
+        public LoginPage(LoginViewModel viewModel)
+        {
+            InitializeComponent();
+            _viewModel = viewModel;
+            BindingContext = _viewModel;
+        }
     }
 }

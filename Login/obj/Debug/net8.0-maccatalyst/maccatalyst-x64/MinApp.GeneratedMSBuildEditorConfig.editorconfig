@@ -42,14 +42,62 @@ build_metadata.AdditionalFiles.ManifestResourceName = Login.Resources.Styles.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/AddHoursPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.AddHoursPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddHoursPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddHoursPage.xaml
+
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/AddJobPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.AddJobPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddJobPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddJobPage.xaml
+
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/HolidayPayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.HolidayPayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HolidayPayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HolidayPayPage.xaml
+
 [D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/JobOverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.JobOverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\JobOverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\JobOverviewPage.xaml
+
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/LogHoursPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.LogHoursPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LogHoursPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LogHoursPage.xaml
+
 [D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/PaycheckPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.PaycheckPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PaycheckPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PaycheckPage.xaml
+
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
+
+[D:/Project4 - School/PRJ4_MAUI_TEST/PRJ4_MAUI_Login/Login/Views/StudentGrantPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Views.StudentGrantPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudentGrantPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudentGrantPage.xaml

@@ -177,3 +177,4 @@ D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-windo
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MinApp.sourcelink.json

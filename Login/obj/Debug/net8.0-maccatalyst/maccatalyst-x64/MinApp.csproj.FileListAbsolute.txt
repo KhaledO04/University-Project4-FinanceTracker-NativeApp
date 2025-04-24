@@ -299,3 +299,4 @@ D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-macca
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MinApp.pdb
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MinApp.genruntimeconfig.cache
 D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\MinApp.dll
+D:\Project4 - School\PRJ4_MAUI_TEST\PRJ4_MAUI_Login\Login\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MinApp.sourcelink.json

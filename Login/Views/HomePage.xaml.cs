@@ -1,19 +1,16 @@
-using MinApp.Services;
-using Microsoft.Maui.Controls;
+using MinApp.ViewModels;
 
-namespace MinApp.Views;
-
-public partial class HomePage : ContentPage
+namespace MinApp.Views
 {
-    private readonly AuthService _authService;
-
-    public HomePage(AuthService authService)
+    public partial class MainPage : ContentPage
     {
-        InitializeComponent();
-        _authService = authService;
-        // Vis en velkomsthilsen med brugerens email, hvis brugerdata er tilgængelig
-        var bruger = _authService.GetCurrentUser();
-        if (bruger != null)
-            WelcomeLabel.Text = $"Velkommen, {bruger.Email}";
+        private readonly MainViewModel _viewModel;
+
+        public MainPage(MainViewModel viewModel)
+        {
+            InitializeComponent();
+            _viewModel = viewModel;
+            BindingContext = _viewModel;
+        }
     }
 }

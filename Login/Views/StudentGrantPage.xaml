@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MinApp.Views.StudentGrantPage"
+             Title="{Binding Title}">
+    <Grid RowDefinitions="Auto,*"
+          Padding="20">
+        <Label Grid.Row="0"
+               Text="Student Grant"
+               FontSize="20"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,20,0,20" />
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="20">
+                <Frame BorderColor="LightGray"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       Padding="15">
+                    <VerticalStackLayout>
+                        <Label Text="SU Fribeløb"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center" />
+
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" Margin="0,10,0,0">
+                            <Label Grid.Column="0" Grid.Row="0" Text="Total amount:" />
+                            <Label Grid.Column="1" Grid.Row="0" Text="{Binding StudentGrant.TotalAmount, StringFormat='{0:C2}'}" HorizontalOptions="End" />
+
+                            <Label Grid.Column="0" Grid.Row="1" Text="Used amount:" />
+                            <Label Grid.Column="1" Grid.Row="1" Text="{Binding StudentGrant.UsedAmount, StringFormat='{0:C2}'}" HorizontalOptions="End" />
+
+                            <Label Grid.Column="0" Grid.Row="2" Text="Remaining:" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Grid.Row="2" Text="{Binding StudentGrant.RemainingAmount, StringFormat='{0:C2}'}" HorizontalOptions="End" FontAttributes="Bold" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BorderColor="LightGray"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       Padding="15">
+                    <VerticalStackLayout>
+                        <Label Text="Income Overview"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center" />
+
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto,Auto" Margin="0,10,0,0">
+                            <Label Grid.Column="0" Grid.Row="0" Text="Year:" />
+                            <Label Grid.Column="1" Grid.Row="0" Text="{Binding StudentGrant.Year}" HorizontalOptions="End" />
+
+                            <Label Grid.Column="0" Grid.Row="1" Text="Monthly income:" />
+                            <Label Grid.Column="1" Grid.Row="1" Text="{Binding StudentGrant.MonthlyIncome, StringFormat='{0:C2}'}" HorizontalOptions="End" />
+
+                            <Label Grid.Column="0" Grid.Row="2" Text="Yearly income:" />
+                            <Label Grid.Column="1" Grid.Row="2" Text="{Binding StudentGrant.YearlyIncome, StringFormat='{0:C2}'}" HorizontalOptions="End" />
+
+                            <Label Grid.Column="0" Grid.Row="3" Text="Allowed income:" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Grid.Row="3" Text="{Binding StudentGrant.AllowedIncome, StringFormat='{0:C2}'}" HorizontalOptions="End" FontAttributes="Bold" />
+                        </Grid>
+
+                        <ProgressBar Progress="{Binding StudentGrant.YearlyIncome, Converter={StaticResource IncomeToProgressConverter}}"
+                                     Margin="0,20,0,5" />
+
+                        <Label Text="{Binding StudentGrant.RemainingAllowedIncome, StringFormat='Remaining allowed income: {0:C2}'}"
+                               HorizontalOptions="Center"
+                               FontSize="14" />
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <ActivityIndicator Grid.Row="1"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+    </Grid>
+</ContentPage>

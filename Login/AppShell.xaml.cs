@@ -1,13 +1,23 @@
-﻿using Microsoft.Maui.Controls;
+﻿using MinApp.Views;
 
-namespace MinApp;
-
-public partial class AppShell : Shell
+namespace MinApp
 {
-    public AppShell()
+    public partial class AppShell : Shell
     {
-        InitializeComponent();
-        // Her kan man registrere yderligere routes programmatisk hvis nødvendigt:
-        // Routing.RegisterRoute("SomePage", typeof(Views.SomePage));
+        public AppShell()
+        {
+            InitializeComponent();
+
+            // Register routes for navigation
+            Routing.RegisterRoute("RegisterPage", typeof(RegisterPage));
+            Routing.RegisterRoute("MainPage", typeof(MainPage));
+            Routing.RegisterRoute("JobOverviewPage", typeof(JobOverviewPage));
+            Routing.RegisterRoute("AddJobPage", typeof(AddJobPage));
+            Routing.RegisterRoute("LogHoursPage", typeof(LogHoursPage));
+            Routing.RegisterRoute("AddHoursPage", typeof(AddHoursPage));
+            Routing.RegisterRoute("PaycheckPage", typeof(PaycheckPage));
+            Routing.RegisterRoute("HolidayPayPage", typeof(HolidayPayPage));
+            Routing.RegisterRoute("StudentGrantPage", typeof(StudentGrantPage));
+        }
     }
 }

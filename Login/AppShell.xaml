@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
+    x:Class="MinApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:views="clr-namespace:MinApp.Views;assembly=MinApp"
-    x:Class="MinApp.AppShell"
-    FlyoutBehavior="Disabled">
-    <!-- Definer Shell-routes til login og hjem-sider -->
-    <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
-    <FlyoutItem Route="home">
-        <ShellContent Route="HomePage" Title="Hjem" ContentTemplate="{DataTemplate views:HomePage}" />
-    </FlyoutItem>
+    xmlns:views="clr-namespace:MinApp.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate views:LoginPage}"
+        Route="LoginPage" />
+
 </Shell>
