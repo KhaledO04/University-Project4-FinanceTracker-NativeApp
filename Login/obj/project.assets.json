@@ -6,12 +6,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -216,12 +216,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -236,12 +236,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -387,12 +387,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -410,12 +410,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -2018,12 +2018,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -2037,12 +2037,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -2050,12 +2050,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -2213,12 +2213,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -2423,12 +2423,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -2443,12 +2443,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -2594,12 +2594,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -2617,12 +2617,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -4225,12 +4225,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -4244,12 +4244,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -4257,12 +4257,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -4420,12 +4420,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -4630,12 +4630,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -4650,12 +4650,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -4801,12 +4801,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -4824,12 +4824,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -6432,12 +6432,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -6451,12 +6451,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -6464,12 +6464,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -6627,12 +6627,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -6837,12 +6837,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -6857,12 +6857,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -7008,12 +7008,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -7031,12 +7031,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -8639,12 +8639,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -8658,12 +8658,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -8671,12 +8671,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -8834,12 +8834,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -9044,12 +9044,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -9064,12 +9064,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -9215,12 +9215,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -9238,12 +9238,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -10846,12 +10846,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -10865,12 +10865,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -10878,12 +10878,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -11041,12 +11041,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -11251,12 +11251,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -11271,12 +11271,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -11422,12 +11422,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -11445,12 +11445,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -13053,12 +13053,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -13072,12 +13072,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -13085,12 +13085,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -13248,12 +13248,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -13458,12 +13458,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -13478,12 +13478,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -13629,12 +13629,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -13652,12 +13652,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -15260,12 +15260,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -15279,12 +15279,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -15292,12 +15292,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -15455,12 +15455,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -15665,12 +15665,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.Compatibility.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -15685,12 +15685,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Controls.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "resource": {
@@ -15836,12 +15836,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "build": {
@@ -15859,12 +15859,12 @@
         },
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         },
         "runtime": {
           "lib/net8.0-android34.0/Microsoft.Maui.Essentials.dll": {
-            "related": ".aar;.pdb;.xml"
+            "related": ".pdb;.xml;.aar"
           }
         }
       },
@@ -17467,12 +17467,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Jsr305Binding.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -17486,12 +17486,12 @@
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.Crypto.Tink.Android.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -17499,12 +17499,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         },
         "runtime": {
           "lib/net6.0-android31.0/Xamarin.Google.ErrorProne.Annotations.dll": {
-            "related": ".aar;.xml"
+            "related": ".xml;.aar"
           }
         }
       },
@@ -33161,24 +33161,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SF47\\.nuget\\packages\\": {},
+    "C:\\Users\\omary\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project4 - School\\PRJ4_MAUI_TEST\\PRJ4_MAUI_Login\\Login\\MinApp.csproj",
+      "projectUniqueName": "C:\\Users\\omary\\OneDrive\\Skrivebord\\MAUI_PRJ4\\University-Project4\\Login\\MinApp.csproj",
       "projectName": "MinApp",
-      "projectPath": "D:\\Project4 - School\\PRJ4_MAUI_TEST\\PRJ4_MAUI_Login\\Login\\MinApp.csproj",
-      "packagesPath": "C:\\Users\\SF47\\.nuget\\packages\\",
-      "outputPath": "D:\\Project4 - School\\PRJ4_MAUI_TEST\\PRJ4_MAUI_Login\\Login\\obj\\",
+      "projectPath": "C:\\Users\\omary\\OneDrive\\Skrivebord\\MAUI_PRJ4\\University-Project4\\Login\\MinApp.csproj",
+      "packagesPath": "C:\\Users\\omary\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\omary\\OneDrive\\Skrivebord\\MAUI_PRJ4\\University-Project4\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SF47\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\omary\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33260,23 +33260,23 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Android.Ref.34",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm64",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x64",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x86",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           }
         ],
         "frameworkReferences": {
@@ -33325,11 +33325,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -33379,11 +33379,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
